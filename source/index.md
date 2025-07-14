@@ -1,21 +1,11 @@
 # IDAES+ User Interfaces
 
-## Graphical UIs
+The IDAES+ user interfaces include graphical (web-based) user interfaces (GUIs), and Python modules that provide
+an application programming interfaace (APIs).
 
 ```{toctree}
-:maxdepth: 1
+:maxdepth: 2
 
-Flowsheet Processor <ui/flowsheetProcessor>
-Flowsheet Visualizer <ui/flowsheetVisualizer>
-Superstructure UI <ui/superstructure>
-PARETO UI <ui/pareto>
+GUIs <ui/index>
+APIs <api/index>
 ```
-
-## Python module APIs
-
-```{toctree}
-:maxdepth: 1
-
-Flowsheet Processor API <api/flowsheetProcessor>
-Connectivity Tool <api/connectivity>
-``` 
