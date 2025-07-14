@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+while [ 1 ]; do
+    watch -g "ls -lR source" 
+    echo "Changes detected, rebuilding documentation..."
+    make html
+    sleep 3
+done
