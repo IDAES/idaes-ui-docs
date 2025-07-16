@@ -2,6 +2,10 @@
 
 Run IDAES flowsheets with no coding and view graphical results.
 
+![GitHub logo](../_static/img/github-logo-dark.png){.idaes-logo} [GitHub repository](https://github.com/prommis/idaes-flowsheet-processor-ui)
+
+![Documentation icon](../_static/img/doc-icon.png){.idaes-logo} [Documentation](https://prommis.github.io/idaes-flowsheet-processor-ui/)
+
 ## Major Features
 
 * Cross-platform GUI can run on Windows, MacOS, or Linux

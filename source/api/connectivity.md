@@ -2,51 +2,35 @@
 
 Quickly create visual diagrams showing the connectivity of flowsheet units and streams. 
 
+![GitHub logo](../_static/img/github-logo-dark.png){.idaes-logo} [GitHub repository](https://github.com/prommis/idaes-connectivity)
 
-<!--
+![Documentation icon](../_static/img/doc-icon.png){.idaes-logo} [Documentation](https://prommis.github.io/idaes-connectivity/)
 
-## IDAES Connectivity Tool
+## Major Features
 
-* Goals: View connectivity of a model in a simple and portable form from Python or command\-line
-* Major Features:
-  - Python library to look at any model
-  - Export connectivity as a table \(CSV\)
-  - View connectivity by translating into text\-based drawing formats Mermaid or D2
-  - See unit names and stream names
-  - Python API to annotate the streams and/or units in the diagram
-* Compatibility: Runs on all Pyomo models and IDAES-based flowsheets
+* Python library to generate connectivity data in useful formats
+* Run from command-line, script, or Jupyter Notebook
+* View connectivity in text-based diagrams Mermaid or D2
+* Add unit names, stream names, and user-defined annotations
+* Export connectivity as a table (CSV) for re-use in other tools
 
-Developers trying to see if their model is connected as expected
+## Compatibility
 
-Works well in Jupyter\, as Mermaid is a supported output format
+Runs on all Pyomo models and IDAES-based flowsheets.
+Pure Python code, runs on Windows, MacOS, and Linux.
 
-Lightweight library that does one thing
+## Screenshots
 
- __Drawbacks / When not to use __ 
-
-Resulting data is static
-
-Mermaid and D2 diagrams not interactive; i\.e\. they cannot be easily rearranged
-
-Only does one thing\, not an analysis suite
-
-No graphical UI; not for users who want to point\-and\-click
-
-
-### IDAES Connectivity Tool Screenshots
-
-Accepts any Python script or importable module
-
+You can run the `idaes-conn` command line tool with a Python module, 
+invoking the `build()` function to build the model, and
+translating the output into a [Mermaid][mermaidjs] diagram.
 ```
-❯   idaes  \-conn example\.py \-\-to mermaid \-L \-\-build   build\_blocks\_set\_version   \-D TD
+idaes-conn example.py --to mermaid --labels
 ```
 
 Output:
-```
+```{figure} ../_static/img/example_mermaid.png
+Example mermaid chart
 ```
 
-* Diagram when rendered by   MermaidJS
-* Generate table or diagram from Python; Render inline in   Jupyter   Notebooks
-* Generate Mermaid diagram from console
-
--->
+[mermaidjs]: https://mermaid.js.org

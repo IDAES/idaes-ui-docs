@@ -14,7 +14,7 @@ Python interface to a flowsheet that makes it easier to use by humans and provid
 
 ## Compatibility
 
-Python API will work in all operating systems, and is usable with any IDAES flowsheet.
+The Python API will work in all operating systems, and is usable with any IDAES flowsheet.
 
 ## Screenshots
 
