@@ -1,23 +1,28 @@
 # PARETO UI
 
-Run and modify optimization analyses of produced water networks created under the PARETO project.
+Run and modify optimization analyses of produced water networks created under the Produced Water Optimization Initiative (PARETO). PARETO provides advanced  _decision support_  solutions for the disposition of produced water from onshore oil & gas operations which are intuitive and accessible to field and system engineers.
 
-<!--
+![Documentation icon](../_static/img/doc-icon.png){.idaes-logo} [Website](https://www.project-pareto.org/)
 
-Organizations need advanced  _decision support_  solutions for the disposition of produced water from onshore oil & gas operations — which are intuitive and accessible to field and system engineers.
+## Major Features
 
-* Goals: Intuitive and accessible to Pyomo optimization models for oil & gas produced water.
-* Major Features:
-  - Adaptable to a wide variety of technologies and geographies
-  - Future integrations with subsurface modeling\, orphan wells plugging optimization\, and other related solutions
-  - Cross-platform graphical UI for Windows, MacOS, and Linux, with one-click install
-  - Table-based inputs, editable in Excel or in the tool\, specifying water source/sink/etc.   details
-- Optimization step with "override" to take advantage of field operator knowledge
+* Adaptable to a wide variety of technologies and geographies
+* Future integrations with subsurface modeling\, orphan wells plugging optimization\, and other related solutions
+* Cross-platform graphical UI for Windows, MacOS, and Linux, with one-click install
+* Table-based inputs, editable in Excel or in the tool\, specifying water source/sink/etc. details
+* Optimization step with "override" to take advantage of field operator knowledge
 
 
-### PARETO UI Screenshots
+## Examples
 
-Otput dashboard shows most important values in a compact easily\-parsed format
+### Input screen
 
-Input screens: \(a\) Summary of most important variables\, \(b\) Detailed inputs
--->
+```{figure} ../_static/img/pareto-input.png
+Input screen for PARETO optimization.
+```
+
+### Output screen
+
+```{figure} ../_static/img/pareto-output.png
+Output screen showing the results of a PARETO optimization.
+```
